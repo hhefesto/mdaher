@@ -1,26 +1,33 @@
 ;;                          Log Horas Trabajadas
 ;;
 ;; El formato de los chequeos tiene que ser: correo    tag    timestamp_inicial   
-;; timestamp_final "comentario"
+;; timestamp_final 'comentario'
 ;; e.g.
-;; hhefesto@rdataa.com    rdataa.com    2017-12-31T09:00    2017-12-31T23:00 "¡Muy bien!"
+;; hhefesto@rdataa.com    rdataa.com    2017-12-31T09:00    2017-12-31T23:00 '¡Muy bien!'
 ;;
 ;; Nota: el formato de la fecha debe ser YYYY-MM-DDTHH:MM con formato de 24 horas.
 ;; --------------------------------------------------------------------------
-hhefesto@rdataa.com    rdataa.com    2017-09-28T13:00    2017-09-28T17:00 ""
-hhefesto@rdataa.com    rdataa.com    2017-09-29T12:40    2017-09-29T16:00 ""
-hhefesto@rdataa.com    rdataa.com    2017-10-04T12:40    2017-10-04T13:40 ""
-hhefesto@rdataa.com    rdataa.com    2017-10-05T09:00    2017-10-05T17:00 "Fui a mex a ver lo de la visa de mi papá."
-hhefesto@rdataa.com    rdataa.com    2017-10-06T09:00    2017-10-06T17:00 "Fui a mex a ver lo de la visa de mi papá."
-hhefesto@rdataa.com    rdataa.com    2017-10-07T12:00    2017-10-07T17:00 "Fui a mex a ver lo de la visa de mi papá."
-hhefesto@rdataa.com    rdataa.com    2017-10-09T12:00    2017-10-09T20:00 "Fui a mex a ver lo de la visa de mi papá."
-hhefesto@rdataa.com    rdataa.com    2017-10-10T12:00    2017-10-10T16:20 "dwatson 1 año"
-hhefesto@rdataa.com    rdataa.com    2017-10-11T02:00    2017-10-11T05:30 "No podía dormir y trabajé más."
-hhefesto@rdataa.com    rdataa.com    2017-10-11T10:00    2017-10-11T17:30 "Papá se fue a Taiwan."
-hhefesto@rdataa.com    rdataa.com    2017-10-16T11:30    2017-10-16T16:30 "David PHI quiere más licencias. Aún no se puede instalar git. Necesitamos comprar licencia de Red Hat o cambiar a uno gratis."
-hhefesto@rdataa.com    rdataa.com    2017-10-17T12:00    2017-10-17T14:00 "Usar Doker para hacer una imagen de rdataa.com y poder trabajar de forma local. Aún no se ha podido arreglar lo de git, seguramente será conveniente cambiar fedora o reinstalar el sistema operativo Red Hat."
-hhefesto@rdataa.com    rdataa.com    2017-10-18T11:45    2017-10-18T18:15 "Rehabilitando el servidor 74. Ahora conocido como Delfos. Sigue sin estar git. También necesito instalar docker y no se va a poder como está rdataa.com."
-hhefesto@rdataa.com    github.com/hhefesto/jacobus    2017-10-19T00:30    2017-10-19T03:30 "Investigación de licencias; BSD 3-clause fue la que más me conveció. Creé el repositorio e investigué que si puedo o no instalar/hacer la tarea (sí puedo...). El proyecto mdaher nació con éste su log.hhefesto@rdataa.com    rdataa.com    2017-10-19T10:00    2017-10-19T16:15 "stash"
-hhefesto@rdataa.com    rdataa.com    2017-10-20T13:00    2017-10-20T17:15 "Ya sirve hasta cierto punto el servidor 74. Falta que se pueda ver CreateUser.php (donde bajas la versión de prueba). Compré cable ethernet-usb, costó 300 pesos."
-hhefesto@rdataa.com    rdataa.com    2017-10-23T09:00    2017-10-23T10:00 "Corregir captcha del servidor 74. Todavía no está listo."
-hhefesto@rdataa.com    rdataa.com    2017-10-24T12:00    2017-10-24T15:00 "Continuar con el captcha. No sirve About de rdataa.com ni del 74"
+hhefesto@rdataa.com    rdataa.com    2017-09-28T13:00    2017-09-28T17:00 ''
+hhefesto@rdataa.com    rdataa.com    2017-09-29T12:40    2017-09-29T16:00 ''
+hhefesto@rdataa.com    rdataa.com    2017-10-04T12:40    2017-10-04T13:40 ''
+hhefesto@rdataa.com    rdataa.com    2017-10-05T09:00    2017-10-05T17:00 'Fui a mex a ver lo de la visa de mi papá.'
+hhefesto@rdataa.com    rdataa.com    2017-10-06T09:00    2017-10-06T17:00 'Fui a mex a ver lo de la visa de mi papá.'
+hhefesto@rdataa.com    rdataa.com    2017-10-07T12:00    2017-10-07T17:00 'Fui a mex a ver lo de la visa de mi papá.'
+hhefesto@rdataa.com    rdataa.com    2017-10-09T12:00    2017-10-09T20:00 'Fui a mex a ver lo de la visa de mi papá.'
+hhefesto@rdataa.com    rdataa.com    2017-10-10T12:00    2017-10-10T16:20 'dwatson 1 año'
+hhefesto@rdataa.com    rdataa.com    2017-10-11T02:00    2017-10-11T05:30 'No podía dormir y trabajé más.'
+hhefesto@rdataa.com    rdataa.com    2017-10-11T10:00    2017-10-11T17:30 'Papá se fue a Taiwan.'
+hhefesto@rdataa.com    rdataa.com    2017-10-16T11:30    2017-10-16T16:30 'David PHI quiere más licencias. Aún no se puede instalar git. Necesitamos comprar licencia de Red Hat o cambiar a uno gratis.'
+hhefesto@rdataa.com    rdataa.com    2017-10-17T12:00    2017-10-17T14:00 'Usar Doker para hacer una imagen de rdataa.com y poder trabajar de forma local. Aún no se ha podido arreglar lo de git, seguramente será conveniente cambiar fedora o reinstalar el sistema operativo Red Hat.'
+hhefesto@rdataa.com    rdataa.com    2017-10-18T11:45    2017-10-18T18:15 'Rehabilitando el servidor 74. Ahora conocido como Delfos. Sigue sin estar git. También necesito instalar docker y no se va a poder como está rdataa.com.'
+hhefesto@rdataa.com    github.com/hhefesto/jacobus    2017-10-19T00:30    2017-10-19T03:30 'Investigación de licencias; BSD 3-clause fue la que más me conveció. Creé el repositorio e investigué que si puedo o no instalar/hacer la tarea (sí puedo...). El proyecto mdaher nació con éste su log.hhefesto@rdataa.com    rdataa.com    2017-10-19T10:00    2017-10-19T16:15 'stash'
+hhefesto@rdataa.com    rdataa.com    2017-10-20T13:00    2017-10-20T17:15 'Ya sirve hasta cierto punto el servidor 74. Falta que se pueda ver CreateUser.php (donde bajas la versión de prueba). Compré cable ethernet-usb, costó 300 pesos.'
+hhefesto@rdataa.com    rdataa.com    2017-10-23T09:00    2017-10-23T10:00 'Corregir captcha del servidor 74. Todavía no está listo.'
+hhefesto@rdataa.com    rdataa.com    2017-10-24T12:00    2017-10-24T15:00 'Continuar con el captcha. No sirve About de rdataa.com ni del 74'
+hhefesto@rdataa.con    rdataa.com    2017-10-25T12:00    2017-10-25T15:00 'Computadora murió, hubo que tener que reinstalar todo el sistema operativo. El script para hacerlo ya mejoró: siguen habiendo problemas definiendo la terminal de hhefesto; también instalar chrome aún está separado.'
+hhefesto@rdataa.con    rdataa.com    2017-10-26T12:00    2017-10-26T15:00 '20 sobres de sal para mi papá y solucionar que Mail.php estuviera instalado en el 74'
+hhefesto@rdataa.con    rdataa.com    2017-10-30T10:00    2017-10-30T16:00 'Ya sirve el servidor 74 AKA Delfos. El repositorio git está en github.com/hhefesto/umar.git'
+hhefesto@rdataa.con    rdataa.com    2017-11-06T11:15    2017-11-06T18:15 'Prototipos en imágenes.'
+hhefesto@rdataa.con    rdataa.com    2017-11-09T14:00    2017-11-09T19:00 'Investigación de cómo compilar código de Borland con cualquier compilador que corra en linux.'
+hhefesto@rdataa.con    rdataa.com    2017-11-10T09:00    2017-11-10T12:30 'Junta con Omar. El compilador g++ debe poder compilar proyectos de Borland; el compilador de Borland es para Windows, y no hay mucho soporte para Linux. En el peor de los casos podemos usar Wine para compilar Aanalyzer, pero g++ debe de poder funcionar.'
+hhefesto@rdataa.con    rdataa.com    2017-11-11T16:15    2017-11-11T 'Empieza laurus-nobilis (una reimplementación de umar).'
