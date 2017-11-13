@@ -30,4 +30,5 @@ hhefesto@rdataa.con    rdataa.com    2017-10-30T10:00    2017-10-30T16:00 'Ya si
 hhefesto@rdataa.con    rdataa.com    2017-11-06T11:15    2017-11-06T18:15 'Prototipos en imágenes.'
 hhefesto@rdataa.con    rdataa.com    2017-11-09T14:00    2017-11-09T19:00 'Investigación de cómo compilar código de Borland con cualquier compilador que corra en linux.'
 hhefesto@rdataa.con    rdataa.com    2017-11-10T09:00    2017-11-10T12:30 'Junta con Omar. El compilador g++ debe poder compilar proyectos de Borland; el compilador de Borland es para Windows, y no hay mucho soporte para Linux. En el peor de los casos podemos usar Wine para compilar Aanalyzer, pero g++ debe de poder funcionar.'
-hhefesto@rdataa.con    rdataa.com    2017-11-11T16:15    2017-11-11T 'Empieza laurus-nobilis (una reimplementación de umar).'
+hhefesto@rdataa.con    rdataa.com    2017-11-11T16:15    2017-11-11T18:30 'Empieza laurus-nobilis (una reimplementación de umar).'
+hhefesto@rdataa.con    rdataa.com    2017-11-12T17:30    2017-11-12T 'Ya corre lauru-nobilis localmente. En delfos ya está instalado y corre con curl localhost:3000 (después de iniciar el app manualmente con stack). El firewall en 3000 tcp/udp sí está abierto, pero de todas formas no es accesible de forma remota (i.e. no lo puedes ver con tu explorador en casa).'
